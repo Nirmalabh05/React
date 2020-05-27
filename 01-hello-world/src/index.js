@@ -7,7 +7,7 @@ function HelloWorld() {
   return (
     <div>
       <h1 className = 'heading'>Heading</h1>
-      My name is <strong>{name}</strong>, this is my {0 + 1}
+      My name is <strong>{name}</strong>, my {0 + 1}
       <sup>st</sup> react component!
     </div>
   );
