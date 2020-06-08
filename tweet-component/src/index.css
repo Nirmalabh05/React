@@ -29,10 +29,8 @@
     margin-right: 0.3em;
 }
 .button{
-    background-color:#3d3a3a;
-    color: white;
-    padding: 5px 10px;
-    height: 30px;
+    color: lightgrey;
+    padding: 10px;
     border-radius: 2px;
     border:none;
     margin-top: 0.3em;
@@ -40,5 +38,5 @@
     cursor: pointer;
 }
 .button:hover{
-    background-color:#918d8d;
+    color:gray;
 }
