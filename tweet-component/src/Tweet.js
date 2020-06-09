@@ -4,6 +4,7 @@ import { Author } from './Author';
 import { Time } from './Time';
 import { Message } from './Message';
 import { ReplyButton, ReTweetButton, LikeButton, MoreOptionsButton } from './Buttons';
+
 export function Tweet({ tweet }) {
     return (<div className='tweet'>
         <Avatar hash={tweet.gravatar} />

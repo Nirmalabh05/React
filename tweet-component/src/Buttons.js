@@ -11,14 +11,14 @@ function getRetweetCount(count){
 }
 export const ReTweetButton = ({count}) => (
 
-   <span className = 'retweet-button'>
-        <i className='fa fa-retweet button' />
+   <span className = 'retweet-button button'>
+        <i className='fa fa-retweet' />
         {getRetweetCount(count)}
     </span>
 )
 export const LikeButton = ({count}) => (
-    <span className = 'like-button'>
-        <i className='fa fa-heart button' />
+    <span className = 'like-button button'>
+        <i className='fa fa-heart' />
         {count > 0 && <span className='like-count'>{count}</span>}
     </span>
 )
