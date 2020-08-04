@@ -1,0 +1,23 @@
+body{
+    background-color: whitesmoke;
+    font-family: sans-serif;
+}
+
+.todo-list{
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: 1px solid gray;
+
+}
+
+.todo-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 20px 0;
+}

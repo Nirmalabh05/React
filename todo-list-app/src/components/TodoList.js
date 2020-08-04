@@ -1,18 +1,9 @@
 import React from 'react';
-import '../css/style.css'
+import '../css/style.css';
 
-function TodoList(){
+function TodoList(props){
     return(
-        <div className='todo-list'>
-            <input type='checkbox' />
-            <p>Place holder </p>
-
-            <input type='checkbox' />
-            <p>Place holder </p>
-
-            <input type='checkbox' />
-            <p>Place holder </p>
-
+        <div className='todo-item'>
             <input type='checkbox' />
             <p>Place holder </p>
         </div>
